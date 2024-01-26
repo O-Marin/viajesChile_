@@ -25,11 +25,11 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg px-5 fixed-top  shadow-5-strong">
+        <nav class="navbar navbar-expand-lg px-5 fixed-top  shadow-5-strong navbar-dark">
             <div class="container-fluid">
-                <div class="d-flex">
-                    <img id="svg" src="./assets/img/viajes.svg" alt="">
-                    <p>viajes chile</p>
+                <div class="d-flex align-items-center">
+                    <img class="d-inline" src="./assets/img/viajes.svg" alt="logo viaje ">
+                    <a class="navbar-brand" href="#">Viajes Chile</a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,14 +80,14 @@
     <main>
 
         <!-- Quienes somos-->
-        <section id="aboutUs" class="d-flex flex-column">
+        <section id="aboutUs" class="d-flex flex-column p-5">
             <div>
                 <h2>Quienes Somos</h2>
             </div>
             <hr>
-            <div class="container d-flex">
+            <div class="container d-flex gap-4">
                 <div>
-                    <figure>
+                    <figure class="d-flex justify-content-center p-2 figure">
                         <i class="fa-solid fa-plane"></i>
                     </figure>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -110,12 +110,12 @@
                         itaque assumenda porro placeat aliquam quod quisquam obcaecati voluptas eos asperiores hic nisi!
                         Quos sed mollitia expedita earum id accusantium accusamus!
                     </p>
-                    <figure>
+                    <figure class="d-flex justify-content-center p-2 figure">
                         <i class="fa-solid fa-mountain-sun"></i>
                     </figure>
                 </div>
                 <div>
-                    <figure>
+                    <figure class="d-flex justify-content-center p-2 figure">
                         <i class="fa-solid fa-route"></i>
                     </figure>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -131,40 +131,47 @@
                 </div>
             </div>
         </section>
-        <section id="destacados">
+        <section id="destacados" class="p-5">
+            <h2>Destacados</h2>
+            <hr>
             <div class="d-flex gap-4 justify-content-center">
                 <div class="card" style="width: 18rem;">
                     <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body figure">
+                        <h5>Lorem Ipsum Dolor</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
                     <img src="/assets/img/card2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body figure ">
+                        <h5>Lorem Ipsum Dolor</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
                     <img src="/assets/img/card3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body figure">
+                        <h5>Lorem Ipsum Dolor</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
                     <img src="/assets/img/card4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body figure">
+                        <h5>Lorem Ipsum Dolor</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="formulario" class=" p-5">
+        <section id="formulario" class="p-5">
             <h2>Contacto</h2>
+            <hr>
             <div class="container">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Nombre</label>
@@ -176,11 +183,11 @@
                     <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <button type="button" id="botonFormulario" class="btn">Base class</button>
+                <button type="button" id="botonFormulario" class="btn">Enviar</button>
             </div>
         </section>
     </main>
-    <footer class="fw-light">
+    <footer class="fw-light p-5">
 
         <div class="d-flex justify-content-around align-items-center">
             <div>
