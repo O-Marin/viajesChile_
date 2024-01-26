@@ -6,19 +6,40 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 /* Navigation */
 .navbar{
     position:fixed;
 }
 
+hr{
+    font-weight: bold;
+}
 
-/* carousel */
-.bg-image{
-    background-image: url("../img/carousel1.jpg");
+#aboutUs{
+    background-color: #19541F;
+    color: #FFFACA;
 }
-.bg-image2{
-    background-image: url("../img/carousel2.jpg");
+
+#aboutUs div p {
+    
 }
-.bg-image3{
-    background-image: url("../img/carousel3.jpg");
+
+
+
+#formulario{
+    background-color: rgba(86, 61, 45, 0.911);
+    color: #DCAE96;
+}
+
+#botonFormulario{
+    background-color: #C5832B;
+}
+
+footer{
+    background-color:  #7C9060;
+    color: #3E363F;
 }

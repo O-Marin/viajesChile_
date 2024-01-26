@@ -6,7 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="O-marin">
     <meta name="description" content="Landing page para una empresa de viajes">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/b5520c24ee.js" crossorigin="anonymous"></script>
     <title>Viajes Chile</title>
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
     <!-- Bootstrap Css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -20,7 +27,10 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <div>
+                    <img src="./assets/img/viajes.svg" alt="">
+                    <p>viajes chile</p>
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -31,13 +41,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#aboutUs">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            <a class="nav-link disabled" aria-disabled="true">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -45,13 +55,13 @@
         </nav>
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
-                <div class="carousel-item active bg-image">
+                <div class="carousel-item active">
                     <img src="/assets/img/carousel1.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item bg-image2">
+                <div class="carousel-item">
                     <img src="/assets/img/carousel2.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item bg-image3">
+                <div class="carousel-item">
                     <img src="/assets/img/carousel3.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
@@ -67,50 +77,122 @@
     </header>
 
     <main>
-        <section>
-            <h2>Quienes Somos</h2>
-            <hr class="fw-bold">
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nostrum sapiente consequuntur commodi animi,
-                    pariatur repudiandae consequatur sunt quam perferendis vel quasi in laudantium officia quia libero
-                    blanditiis debitis asperiores vero tempora iure ipsa voluptas.
-                    Sunt quas quos nesciunt omnis officiis voluptatum nemo a quo delectus iste laborum doloremque,
-                    itaque assumenda porro placeat aliquam quod quisquam obcaecati voluptas eos asperiores hic nisi!
-                    Quos sed mollitia expedita earum id accusantium accusamus!
-                </p>
-                <img src="" alt="">
-            </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nostrum sapiente consequuntur commodi animi,
-                    pariatur repudiandae consequatur sunt quam perferendis vel quasi in laudantium officia quia libero
-                    blanditiis debitis asperiores vero tempora iure ipsa voluptas.
-                    Sunt quas quos nesciunt omnis officiis voluptatum nemo a quo delectus iste laborum doloremque,
-                    itaque assumenda porro placeat aliquam quod quisquam obcaecati voluptas eos asperiores hic nisi!
-                    Quos sed mollitia expedita earum id accusantium accusamus!
-                </p>
-                <img src="" alt="">
-            </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nostrum sapiente consequuntur commodi animi,
-                    pariatur repudiandae consequatur sunt quam perferendis vel quasi in laudantium officia quia libero
-                    blanditiis debitis asperiores vero tempora iure ipsa voluptas.
-                    Sunt quas quos nesciunt omnis officiis voluptatum nemo a quo delectus iste laborum doloremque,
-                    itaque assumenda porro placeat aliquam quod quisquam obcaecati voluptas eos asperiores hic nisi!
-                    Quos sed mollitia expedita earum id accusantium accusamus!
-                </p>
-                <img src="" alt="">
-            </div>
-        </section>
-        <section>
 
+        <!-- Quienes somos-->
+        <section id="aboutUs" class="d-flex flex-column">
+            <div>
+                <h2>Quienes Somos</h2>
+            </div>
+            <hr>
+            <div class="container d-flex">
+                <div>
+                    <figure>
+                        <i class="fa-solid fa-plane"></i>
+                    </figure>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum sapiente consequuntur commodi animi,
+                        pariatur repudiandae consequatur sunt quam perferendis vel quasi in laudantium officia quia
+                        libero
+                        blanditiis debitis asperiores vero tempora iure ipsa voluptas.
+                        Sunt quas quos nesciunt omnis officiis voluptatum nemo a quo delectus iste laborum doloremque,
+                        itaque assumenda porro placeat aliquam quod quisquam obcaecati voluptas eos asperiores hic nisi!
+                        Quos sed mollitia expedita earum id accusantium accusamus!
+                    </p>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum sapiente consequuntur commodi animi,
+                        pariatur repudiandae consequatur sunt quam perferendis vel quasi in laudantium officia quia
+                        libero
+                        blanditiis debitis asperiores vero tempora iure ipsa voluptas.
+                        Sunt quas quos nesciunt omnis officiis voluptatum nemo a quo delectus iste laborum doloremque,
+                        itaque assumenda porro placeat aliquam quod quisquam obcaecati voluptas eos asperiores hic nisi!
+                        Quos sed mollitia expedita earum id accusantium accusamus!
+                    </p>
+                    <figure>
+                        <i class="fa-solid fa-mountain-sun"></i>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <i class="fa-solid fa-route"></i>
+                    </figure>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum sapiente consequuntur commodi animi,
+                        pariatur repudiandae consequatur sunt quam perferendis vel quasi in laudantium officia quia
+                        libero
+                        blanditiis debitis asperiores vero tempora iure ipsa voluptas.
+                        Sunt quas quos nesciunt omnis officiis voluptatum nemo a quo delectus iste laborum doloremque,
+                        itaque assumenda porro placeat aliquam quod quisquam obcaecati voluptas eos asperiores hic nisi!
+                        Quos sed mollitia expedita earum id accusantium accusamus!
+                    </p>
+
+                </div>
+            </div>
         </section>
-        <section></section>
+        <section class="destacados">
+            <div class="d-flex gap-4 justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="/assets/img/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="/assets/img/card3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="/assets/img/card4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="formulario">
+            <h2>Contacto</h2>
+            <div class="container">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                    <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="button" id="botonFormulario" class="btn">Base class</button>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <div class="d-flex">
+            <div>
+                <h3>Viajes Chile</h3>
+            </div>
+            <div>
+                <figure>
+                    <i class="fa-brands fa-gitlab"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </figure>
+            </div>
+        </div>
     </footer>
 
 
