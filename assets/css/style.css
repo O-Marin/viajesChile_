@@ -11,9 +11,21 @@ body{
 }
 
 /* Navigation */
-.navbar{
-    position:fixed;
+header{
+    
 }
+
+#svg{
+    height: 50px;
+    width: 50px;
+}
+.navbar{
+    
+    min-height: 1.5rem;
+}
+
+
+
 
 hr{
     font-weight: bold;
@@ -42,4 +54,9 @@ hr{
 footer{
     background-color:  #7C9060;
     color: #3E363F;
+    padding: 1.5rem;
+}
+
+i{
+    font-size: 1.5rem;
 }

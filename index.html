@@ -25,18 +25,18 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark">
+        <nav class="navbar navbar-expand-lg px-5 fixed-top  shadow-5-strong">
             <div class="container-fluid">
-                <div>
-                    <img src="./assets/img/viajes.svg" alt="">
+                <div class="d-flex">
+                    <img id="svg" src="./assets/img/viajes.svg" alt="">
                     <p>viajes chile</p>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end pe-5" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -44,24 +44,25 @@
                             <a class="nav-link" href="#aboutUs">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Destacados</a>
+                            <a class="nav-link" href="#destacados">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Contacto</a>
+                            <a class="nav-link" href="#formulario">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active bg-img">
                     <img src="/assets/img/carousel1.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item .bg-img">
                     <img src="/assets/img/carousel2.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item bg-img">
                     <img src="/assets/img/carousel3.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
@@ -130,7 +131,7 @@
                 </div>
             </div>
         </section>
-        <section class="destacados">
+        <section id="destacados">
             <div class="d-flex gap-4 justify-content-center">
                 <div class="card" style="width: 18rem;">
                     <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
@@ -162,7 +163,7 @@
                 </div>
             </div>
         </section>
-        <section id="formulario">
+        <section id="formulario" class=" p-5">
             <h2>Contacto</h2>
             <div class="container">
                 <div class="mb-3">
@@ -179,13 +180,14 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="d-flex">
+    <footer class="fw-light">
+
+        <div class="d-flex justify-content-around align-items-center">
             <div>
                 <h3>Viajes Chile</h3>
             </div>
             <div>
-                <figure>
+                <figure class="d-inline align-middle">
                     <i class="fa-brands fa-gitlab"></i>
                     <i class="fa-brands fa-square-x-twitter"></i>
                     <i class="fa-brands fa-square-instagram"></i>
@@ -193,6 +195,7 @@
                 </figure>
             </div>
         </div>
+
     </footer>
 
 
