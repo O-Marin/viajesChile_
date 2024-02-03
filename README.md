@@ -11,7 +11,7 @@ Prueba de consolidacion de conocimientos del modulo 2 del bootcamp de javascript
  - CSS
 
 
-## Resultado
+## Preview
 
 ![Viajes Chile](./assets/img/viajesChile.png)
 
